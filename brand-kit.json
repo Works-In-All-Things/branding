@@ -1,0 +1,37 @@
+{
+  "$schema": "https://brand-kit.example/schema/v1",
+  "brand": {
+    "name": "Works In All Things",
+    "source": "https://worksinallthings.com/",
+    "extractedAt": "2026-11-09",
+    "positioning": "Rock RMS plugins that help church staff and volunteers serve families well."
+  },
+  "colors": {
+    "accent": { "hex": "#E87121", "usage": "Primary action, logo frame and emphasis." },
+    "accentStrong": { "hex": "#F39552", "usage": "Hover and light emphasis." },
+    "grey": { "hex": "#E5E5E5", "usage": "Primary text and logo light tone." },
+    "ink": { "hex": "#0C0D10", "usage": "Primary dark surface." },
+    "raised": { "hex": "#14161B", "usage": "Cards and elevated surfaces." },
+    "muted": { "hex": "#A3A9B6", "usage": "Supporting copy." }
+  },
+  "typography": {
+    "family": "Lato",
+    "weights": [400, 700],
+    "fallback": "system-ui, -apple-system, Segoe UI, sans-serif"
+  },
+  "assets": {
+    "logo": [
+      "assets/logos/works-in-all-things-logo.png",
+      "assets/logos/works-in-all-things-logo.webp",
+      "assets/logos/works-in-all-things-logo-600.webp",
+      "assets/logos/works-in-all-things-logo-900.webp"
+    ],
+    "mark": "assets/logos/works-in-all-things-mark.svg"
+  },
+  "voice": ["thoughtful", "plain-spoken", "practical", "service-oriented"],
+  "gaps": [
+    "No approved vector version of the full wordmark was published on the source site.",
+    "No photography or illustration system was visible on the reviewed home page.",
+    "No explicit tagline, minimum-size rule, clear-space rule, or partnership/co-branding policy was published."
+  ]
+}
