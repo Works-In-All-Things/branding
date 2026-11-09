@@ -1,37 +1,32 @@
 {
-  "$schema": "https://brand-kit.example/schema/v1",
-  "brand": {
-    "name": "Works In All Things",
-    "source": "https://worksinallthings.com/",
-    "extractedAt": "2026-11-09",
-    "positioning": "Rock RMS plugins that help church staff and volunteers serve families well."
+  "$schema": "./schemas/brand-kit.schema.json",
+  "version": "2026.11",
+  "base_url": "https://works-in-all-things.github.io/branding/",
+  "brand": {"name": "Works In All Things", "website": "https://worksinallthings.com/", "positioning": "Rock RMS plugins that help church staff and volunteers serve families well.", "source_reviewed_at": "2026-11-09"},
+  "tagline": {"value": null, "status": "proposed", "note": "No approved tagline was found on the reviewed official site. Confirm one before using a tagline in brand work."},
+  "locations": [],
+  "locations_status": "proposed",
+  "locations_note": "No mailing, office, or service location is published in the reviewed source. Do not infer one.",
+  "color_system": {
+    "palette": {
+      "signal_orange": {"name": "Signal Orange", "source": "Official site CSS", "tones": [{"name": "base", "hex": "#E87121", "status": "confirmed"}, {"name": "light", "hex": "#F39552", "status": "confirmed"}], "text_on": {"hex": "#0C0D10", "status": "proposed", "note": "Working pairing for large text and controls; validate at each size."}, "usage": "Primary action, logo frame, and emphasis."},
+      "ink": {"name": "Ink", "source": "Official site CSS", "tones": [{"name": "base", "hex": "#0C0D10", "status": "confirmed"}, {"name": "raised", "hex": "#14161B", "status": "confirmed"}], "text_on": {"hex": "#E5E5E5", "status": "proposed", "note": "Working pairing for dark surfaces; validate at each size."}, "usage": "Dark base and elevated surface."},
+      "grey": {"name": "Brand Grey", "source": "Official site CSS", "tones": [{"name": "base", "hex": "#E5E5E5", "status": "confirmed"}, {"name": "muted", "hex": "#A3A9B6", "status": "confirmed"}], "text_on": {"hex": "#0C0D10", "status": "proposed", "note": "Working pairing for light surfaces; validate at each size."}, "usage": "Primary and supporting light text."}
+    },
+    "interface": {"status": "proposed", "note": "The official site publishes color values but not a UI token system.", "background": "#0C0D10", "surface": "#14161B", "text_primary": "#E5E5E5", "text_muted": "#A3A9B6", "border": "#30343D", "action": "#E87121", "action_hover": "#F39552"},
+    "semantic": {"status": "proposed", "note": "No official semantic colors were published. These are implementation placeholders, not brand approvals.", "success": {"foreground": "#E5E5E5", "background": "#14161B"}, "warning": {"foreground": "#0C0D10", "background": "#F39552"}, "danger": {"foreground": "#E5E5E5", "background": "#14161B"}, "info": {"foreground": "#E5E5E5", "background": "#14161B"}}
   },
-  "colors": {
-    "accent": { "hex": "#E87121", "usage": "Primary action, logo frame and emphasis." },
-    "accentStrong": { "hex": "#F39552", "usage": "Hover and light emphasis." },
-    "grey": { "hex": "#E5E5E5", "usage": "Primary text and logo light tone." },
-    "ink": { "hex": "#0C0D10", "usage": "Primary dark surface." },
-    "raised": { "hex": "#14161B", "usage": "Cards and elevated surfaces." },
-    "muted": { "hex": "#A3A9B6", "usage": "Supporting copy." }
-  },
-  "typography": {
-    "family": "Lato",
-    "weights": [400, 700],
-    "fallback": "system-ui, -apple-system, Segoe UI, sans-serif"
-  },
-  "assets": {
-    "logo": [
-      "assets/logos/works-in-all-things-logo.png",
-      "assets/logos/works-in-all-things-logo.webp",
-      "assets/logos/works-in-all-things-logo-600.webp",
-      "assets/logos/works-in-all-things-logo-900.webp"
+  "radius": {"none": {"value": "0px", "usage": "Buttons, cards, and panels retain the square working character of the published site.", "status": "confirmed"}, "mark": {"value": "10px", "usage": "Site mark container only.", "status": "confirmed"}, "component_default": {"value": "0px", "usage": "New product or marketing components pending an approved radius scale.", "status": "proposed"}},
+  "typography": {"primary": {"family": "Lato", "status": "confirmed", "weights": [400, 700], "files": [{"weight": 400, "path": "assets/fonts/lato-latin-400-normal.woff2"}, {"weight": 700, "path": "assets/fonts/lato-latin-700-normal.woff2"}], "fallback": "system-ui, -apple-system, Segoe UI, Arial, sans-serif"}},
+  "logos": {
+    "lockups": [
+      {"id": "primary_raster_wordmark", "type": "combination_mark", "status": "confirmed", "preferred_use": "Primary logo where the full brand name should be read.", "assets": [{"path": "assets/logos/works-in-all-things-logo.png", "format": "png", "variant": "transparent", "width": 1200, "height": 447}, {"path": "assets/logos/works-in-all-things-logo.webp", "format": "webp", "variant": "transparent", "width": 1200, "height": 447}, {"path": "assets/logos/works-in-all-things-logo-900.webp", "format": "webp", "variant": "transparent", "width": 900, "height": 335}, {"path": "assets/logos/works-in-all-things-logo-600.webp", "format": "webp", "variant": "transparent", "width": 600, "height": 224}]},
+      {"id": "site_mark", "type": "logo_mark", "status": "confirmed", "preferred_use": "Favicon and compact, already-established contexts; not a replacement for the full logo in first-use contexts.", "assets": [{"path": "assets/logos/works-in-all-things-mark.svg", "format": "svg", "variant": "dark-background", "status": "confirmed"}, {"path": "assets/logos/works-in-all-things-mark-light.svg", "format": "svg", "variant": "light", "status": "proposed", "note": "Derived from the published favicon mark; confirm as an official asset."}, {"path": "assets/logos/works-in-all-things-mark-dark.svg", "format": "svg", "variant": "dark", "status": "proposed", "note": "Derived from the published favicon mark; confirm as an official asset."}]}
     ],
-    "mark": "assets/logos/works-in-all-things-mark.svg"
+    "rules": [{"status": "confirmed", "instruction": "Use supplied logo files intact; do not redraw, stretch, crop, or recolor them."}, {"status": "confirmed", "instruction": "Avoid busy imagery behind the logo and preserve the orange-and-grey treatment in the published raster wordmark."}, {"status": "proposed", "instruction": "Until approved clear-space guidance exists, keep surrounding space at least equal to the height of the W mark."}, {"status": "proposed", "instruction": "Until approved minimum-size guidance exists, do not use the primary raster wordmark below 160 px wide in digital work."}]
   },
-  "voice": ["thoughtful", "plain-spoken", "practical", "service-oriented"],
-  "gaps": [
-    "No approved vector version of the full wordmark was published on the source site.",
-    "No photography or illustration system was visible on the reviewed home page.",
-    "No explicit tagline, minimum-size rule, clear-space rule, or partnership/co-branding policy was published."
-  ]
+  "brand_elements": {"site_mark": {"status": "confirmed", "description": "Orange geometric W inside a square frame, packaged as the official site favicon SVG."}, "framed_wordmark": {"status": "confirmed", "description": "Orange-framed uppercase wordmark construction visible in the published site header and raster logo."}, "imagery": {"status": "proposed", "description": "No approved photography or illustration system was located. Use product or operational imagery only after approval."}},
+  "voice": {"summary": "Thoughtful, plain-spoken, practical, and service-oriented. Help church staff and volunteers take the next useful step.", "personality": ["thoughtful", "capable", "clear", "humble", "service-oriented"], "avoid_words": ["revolutionary", "ultimate", "seamless", "game-changing", "transformation"], "writing_conventions": ["Use sentence case.", "Lead with the practical outcome.", "Use concrete verbs and name constraints plainly.", "Write technical detail only when it helps someone act.", "Treat church staff and volunteers as capable people with limited time."], "example_phrases": ["A TV player for any Linux computer.", "Clear setup guides, a FAQ, and a real person to email.", "Simple to set up and easy to remove if needed."], "status": "confirmed_from_source_copy_and_audit"},
+  "rules": [{"kind": "do", "instruction": "Start with this file for structured brand data and use the supplied logo assets."}, {"kind": "do", "instruction": "Use Signal Orange as an accent and action color, not as long-form body-copy color."}, {"kind": "do", "instruction": "Use Lato at the supplied 400 and 700 weights when the font can be embedded."}, {"kind": "dont", "instruction": "Do not invent a tagline, location, full-wordmark SVG, or formal logo measurements."}, {"kind": "dont", "instruction": "Do not imply that proposed tokens, logo variants, or semantic mappings are approved brand standards."}, {"kind": "dont", "instruction": "Do not use the mark instead of the primary logo where the brand has not already been established."}],
+  "proposed_fields": [{"field": "tagline", "status": "proposed", "confirmation_needed": "Provide an approved tagline or confirm that the brand intentionally has none."}, {"field": "locations", "status": "proposed", "confirmation_needed": "Provide approved mailing, office, or service locations if they should be published."}, {"field": "logos.rules.clear_space_and_minimum_size", "status": "proposed", "confirmation_needed": "Approve, replace, or remove the interim clear-space and minimum-size guidance."}, {"field": "logos.lockups.site_mark.assets.light_and_dark_svg", "status": "proposed", "confirmation_needed": "Approve the derived light/dark mark variants or supply official variants."}, {"field": "color_system.interface_and_semantic", "status": "proposed", "confirmation_needed": "Approve a product/UI token and semantic-color system, or keep it implementation-only."}, {"field": "brand_elements.imagery", "status": "proposed", "confirmation_needed": "Provide an approved photography or illustration direction."}]
 }

@@ -23,4 +23,5 @@
 
 1. An official vector full wordmark has not been located. Do not redraw or trace the raster logo.
 2. Clear space, minimum size, incorrect-use examples, print colors, and co-branding rules are not published. The guide offers conservative working rules that need owner approval.
-3. Publishing destination: this package was pushed to `Works-In-All-Things/branding` (WOR-12).
+3. No GitHub repository convention, existing brand repository, or GitHub Pages domain was supplied to this workspace. Publishing needs authenticated access to the `Works-In-All-Things` organization or a named destination repository.
+

@@ -8,8 +8,12 @@ Run `python3 -m http.server 8000` and open `http://localhost:8000`.
 
 ## Publish to GitHub Pages
 
-1. In **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
-2. The guide will publish at `https://works-in-all-things.github.io/branding/` unless the organization has a custom Pages domain.
+1. Create (or select) the `Works-In-All-Things/brand` repository.
+2. Push this directory's `main` branch.
+3. In **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
+4. The guide will publish at `https://works-in-all-things.github.io/brand/` unless the organization has a custom Pages domain.
+
+The repository/Pages URL are intentionally not claimed here because no authenticated GitHub repository or company convention was available in this task workspace.
 
 ## Contents
 
@@ -22,3 +26,4 @@ Run `python3 -m http.server 8000` and open `http://localhost:8000`.
 ## Asset provenance
 
 The packaged logo files and webfonts were downloaded from publicly served paths on the official Works In All Things website on 2026-11-09. They are provided for authorized brand use only; do not modify the logo or treat this package as a license grant.
+
